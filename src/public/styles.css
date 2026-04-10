@@ -1,0 +1,19 @@
+html,
+body {
+    font-family: sans-serif;
+    background: #000000;
+    color: #eeeeee;
+}
+
+main {
+    margin: 4em auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: fit-content;
+}
