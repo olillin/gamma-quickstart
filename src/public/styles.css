@@ -1,13 +1,17 @@
+:root {
+    --foreground: #eeeeee;
+    --background: #000000;
+}
+
 html,
 body {
     font-family: sans-serif;
-    background: #000000;
-    color: #eeeeee;
+    background: var(--background);
+    color: var(--foreground);
 }
 
 main {
     margin: 4em auto;
-
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -16,4 +20,15 @@ main {
 
 h1 {
     width: fit-content;
+}
+
+a {
+    margin: 2em;
+    padding: 1em 2em;
+    color: var(--foreground);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 1em;
+    border: 0.125em solid var(--foreground);
 }

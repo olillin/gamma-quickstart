@@ -3,7 +3,7 @@ import { createExpressApp } from './setup/index.js'
 const app = createExpressApp()
 
 app.get('/', (req, res) => {
-    res.render('template', { name: 'Gamma Quickstart' })
+    res.render('home')
 })
 
 const port = process.env.PORT ?? 8000

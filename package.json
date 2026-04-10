@@ -16,13 +16,18 @@
     "dependencies": {
         "@types/connect-livereload": "^0.6.3",
         "@types/express": "^5.0.6",
+        "@types/express-session": "^1.18.2",
         "@types/livereload": "^0.9.5",
         "@types/node": "^25.6.0",
         "connect-livereload": "^0.6.1",
+        "dotenv": "^17.4.1",
         "express": "^5.2.1",
         "express-handlebars": "^9.0.1",
+        "express-session": "^1.19.0",
+        "gammait": "^1.0.3",
         "livereload": "^0.10.3",
         "nodemon": "^3.1.14",
+        "openid-client": "^6.8.2",
         "ts-node": "^10.9.2",
         "typescript": "^6.0.2"
     },

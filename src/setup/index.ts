@@ -3,6 +3,9 @@ import { engine } from 'express-handlebars'
 import livereload from 'livereload'
 import connectlivereload from 'connect-livereload'
 
+import dotenv from 'dotenv'
+dotenv.config()
+
 const viewsDir = './src'
 const publicDir = './src/public'
 
